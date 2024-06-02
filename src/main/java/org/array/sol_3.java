@@ -1,17 +1,17 @@
-package org.example;
+package org.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
 
 public class sol_3 {
     public static void main(String[] args) {
 //        int[] answers = {1,2,3,4,5};
         int[] answers = {1,3,2,4,2};
-        System.out.println(Arrays.toString(solution(answers)));
+        System.out.println(Arrays.toString(solution3(answers)));
     }
 
-    public static int[] solution(int[] answers) {
+//    모의고사
+    public static int[] solution3(int[] answers) {
 
         int[][] pattern = {
                 {1, 2, 3, 4, 5},
@@ -23,7 +23,7 @@ public class sol_3 {
 
         for(int i=0;i<answers.length;i++){
             for(int j=0;j<pattern.length;j++){
-                if(answers[i]==pattern[j][i%pattern[j].length]){
+                if(answers[i]==pattern[j][i % pattern[j].length]){
                     scores[j]++;
                 }
             }

@@ -1,8 +1,6 @@
-package org.example;
+package org.array;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 
 public class sol_1 {
@@ -33,6 +31,8 @@ public class sol_1 {
         System.out.println(Arrays.toString(solution2(arr)));
 
     }
+
+//    배열제어하기
     public static int[] solution1(int[] arrayList){
         Arrays.sort(arrayList);
 //        int[] arr = arrayList;
