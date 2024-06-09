@@ -1,4 +1,4 @@
-# JAVA algorithm practice
+# JAVA Algorithm practice
 
 Java 자료구조 및 알고리즘
 1. 배열
