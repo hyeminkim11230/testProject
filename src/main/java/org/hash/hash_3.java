@@ -6,7 +6,7 @@ import java.util.HashSet;
 public class hash_3 {
 
     public static void main(String[] args) {
-        String[] participant = {"leo","kiki","eden"};
+        String[] participant = {"eden","kiki","leo"};
         String[] completion = {"kiki","eden"};
         System.out.println(solution(participant,completion));
     }
